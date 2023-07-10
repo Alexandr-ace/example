@@ -1,0 +1,35 @@
+.main {
+    background-color: #010032;
+    height: 83px;
+    align-items: center;
+    display: flex;
+    .up {
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        &_one {
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        &_two {
+            color: white;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            width: 419px;
+        }
+        &_three {
+            color: white;
+            height: 37px;
+            width: 129px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+}

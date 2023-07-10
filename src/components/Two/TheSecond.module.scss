@@ -1,0 +1,84 @@
+.main {
+    background-color: #010032;
+    height: 770px;
+    display: flex;
+
+    .center {
+        display: flex;
+        width: 1440px;
+        margin: 0 auto;
+
+        .left {
+            color: white;
+            width: 620px;
+            &_h1 {
+                font-size: 72px;
+                font-weight: normal;
+                margin-top: 100px;
+                margin-bottom: 34px;
+                line-height: 75.6px;
+                width: 604px;
+            }
+            &_span {
+                font-size: 22px;
+                line-height: 34.1px;
+                width: 543px;
+                display: block;
+            }
+            .hire {
+                margin-top: 23px;
+                width: 199px;
+                height: 65px;
+                background-color: white;
+                border-radius: 30px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                color: black;
+                justify-content: center;
+                &_span {
+                    font-size: 18px;
+                    line-height: 25.2px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    margin-right: 22px;
+                }
+                &_img {
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+            .reward {
+                margin-top: 100px;
+                height: 64px;
+                width: 365px;
+                display: flex;
+                align-items: center;
+                &_img {
+                    margin-right: 24px;
+                }
+                &_div {
+                    height: 55px;
+                    display: flex;
+                    text-align: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    &_span_up {
+                        font-size: 18px;
+                        line-height: 25.9px;
+                    }
+                    &_span_bottom {
+                        font-size: 15px;
+                        line-height: 22.4px;
+                        color: #9999ad;
+                    }
+                }
+            }
+        }
+        .right {
+            width: 648px;
+        }
+    }
+}

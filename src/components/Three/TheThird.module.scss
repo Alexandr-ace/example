@@ -1,0 +1,92 @@
+.main {
+    padding-top: 144px;
+    height: 400px;
+    display: flex;
+    .center {
+        display: flex;
+        width: 1440px;
+        margin: 0 auto;
+        .left {
+            display: flex;
+            flex-direction: column;
+            margin-right: 90px;
+            &_line1 {
+                margin-bottom: 115px;
+                width: 250px;
+            }
+            &_line2 {
+                margin-bottom: 3px;
+                width: 400px;
+            }
+            &_span {
+                margin-bottom: 27px;
+                width: 391px;
+                font-size: 19px;
+                line-height: 28px;
+            }
+            &_div {
+                margin-top: 27px;
+                height: 76px;
+                width: 400px;
+                display: flex;
+                align-items: center;
+                &_img {
+                    margin-right: 24px;
+                }
+                &_div {
+                    height: 55px;
+                    display: flex;
+                    text-align: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    &_span_up {
+                        font-size: 18px;
+                        line-height: 24.1px;
+                    }
+                    &_span_bottom {
+                        font-size: 15px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            &_div_up {
+                font-size: 48px;
+                line-height: 53.8px;
+                margin-bottom: 74px;
+            }
+            &_div_miidle {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 790px;
+                height: 124px;
+                &_1 {
+                    display: flex;
+                    flex-direction: column;
+                    &_span_up {
+                        font-size: 60px;
+                        line-height: 66px;
+                        color: #4543e8;
+                        margin-bottom: 8px;
+                    }
+                    &_span_bottom {
+                        font-size: 21px;
+                        line-height: 30.8px;
+                    }
+                }
+            }
+            &_div_bottom {
+                margin-top: 50px;
+                width: 790px;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
