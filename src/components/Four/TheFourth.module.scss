@@ -1,0 +1,118 @@
+.main {
+    padding-top: 180px;
+    height: 2950px;
+    display: flex;
+    .center {
+        display: flex;
+        width: 1280px;
+        flex-direction: column;
+        margin: 0 auto;
+        &_1 {
+            width: 700px;
+            &_text {
+                font-size: 60px;
+                line-height: 66px;
+                width: 698px;
+                margin-top: 26px;
+            }
+        }
+        &_2 {
+            margin-top: 78px;
+            display: flex;
+            justify-content: space-between;
+            &_left {
+                width: 510px;
+                &_img {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &_text {
+                    margin-top: 23px;
+                    font-size: 12px;
+                    line-height: 27.9px;
+                    width: 500px;
+                }
+            }
+            &_right {
+                width: 620px;
+                &_img {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &_text {
+                    margin-top: 23px;
+                    font-size: 12px;
+                    line-height: 27.9px;
+                    width: 500px;
+                }
+            }
+        }
+        &_3 {
+            margin-top: 109px;
+            display: flex;
+            justify-content: center;
+            &_center {
+                width: 740px;
+                &_img {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &_text {
+                    margin-top: 23px;
+                    font-size: 12px;
+                    line-height: 27.9px;
+                    width: 500px;
+                }
+            }
+        }
+        &_4 {
+            margin-top: 107px;
+            display: flex;
+            justify-content: space-between;
+            &_left {
+                width: 620px;
+                &_img {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &_text {
+                    margin-top: 23px;
+                    font-size: 12px;
+                    line-height: 27.9px;
+                    width: 500px;
+                }
+            }
+            &_right {
+                width: 512px;
+                &_img {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                &_text {
+                    margin-top: 23px;
+                    font-size: 12px;
+                    line-height: 27.9px;
+                    width: 500px;
+                }
+                &_imgx {
+                    margin-top: 84px;
+                }
+            }
+        }
+    }
+}
