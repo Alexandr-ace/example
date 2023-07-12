@@ -7,6 +7,7 @@
         width: 1280px;
         margin: 0 auto;
         color: white;
+        flex-direction: column;
         .top {
             width: 1280px;
             margin-top: 144px;
@@ -60,6 +61,51 @@
                     font-size: 18px;
                     line-height: 27.9px;
                 }
+            }
+        }
+        .bottom {
+            width: 1280px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .top3 {
+                width: 290px;
+                .top3_img {
+                    margin-top: 20px;
+                }
+
+                .top3_text {
+                    margin-top: 20px;
+                    width: 109px;
+                    font-size: 24px;
+                    line-height: 29.8px;
+                }
+                .top3_textx {
+                    margin-top: 23px;
+                    width: 289px;
+                    font-size: 18px;
+                    line-height: 27.9px;
+                }
+            }
+            .top3_left {
+                margin-left: 130px;
+            }
+            .bottom_push {
+                width: 272px;
+                height: 69px;
+                background-color: white;
+                color: black;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                line-height: 25.2px;
+                margin-top: 117px;
+            }
+            .bottom_push_right {
+                margin-right: 15px;
             }
         }
     }

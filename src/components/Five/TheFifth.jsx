@@ -3,6 +3,8 @@ import styles from "./TheFifth.module.scss";
 const logo21 = require("../../snippet/image/image21.png");
 const logo22 = require("../../snippet/image/image22.png");
 const logo23 = require("../../snippet/image/image23.png");
+const logo24 = require("../../snippet/image/image24.png");
+const logo25 = require("../../snippet/image/image25.png");
 
 const TheFifth = () => {
   return (
@@ -32,7 +34,27 @@ const TheFifth = () => {
             </div>
           </div>
         </div>
-        <div className={styles.bottom}></div>
+        <div className={styles.bottom}>
+          <div className={styles.top3}>
+            <img className={styles.top3_img} src={logo24} alt="" />
+            <div className={styles.top3_text}>Memorabilia</div>
+            <div className={styles.top3_textx}>
+              Choose from easy, affordable options for merch like custom tees
+              and sets of pins.
+            </div>
+          </div>
+          <div className={`${styles.top3} ${styles.top3_left} `}>
+            <img className={styles.top3_img} src={logo25} alt="" />
+            <div className={styles.top3_text}>Visual Aids</div>
+            <div className={styles.top3_textx}>
+              Make your point more convincingly with branded flyers, slides,
+              catalogues, infographics.
+            </div>
+          </div>
+          <div className={`${styles.bottom_push} ${styles.bottom_push_right}`}>
+            Start a project
+          </div>
+        </div>
       </div>
     </div>
   );

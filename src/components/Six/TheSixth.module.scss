@@ -1,0 +1,80 @@
+.main {
+    background-color: #d8d8eb;
+    display: flex;
+    height: 960px;
+    .center {
+        display: flex;
+        width: 1280px;
+        margin: 0 auto;
+        color: white;
+        flex-direction: column;
+        &_img {
+            margin-top: 120px;
+            display: flex;
+            justify-content: center;
+        }
+        &_span {
+            margin-top: 26px;
+            font-size: 60px;
+            line-height: 66px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            div {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &_names {
+            margin-top: 58px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 576px;
+            height: 360px;
+            background-color: white;
+            color: black;
+
+            .avatar {
+                width: 576px;
+                height: 360px;
+                margin-left: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                &_img {
+                }
+                &_stext {
+                }
+                &_mtext {
+                }
+                &_div {
+                    margin-top: 27px;
+                    height: 76px;
+                    width: 400px;
+                    display: flex;
+                    align-items: center;
+                    &_img {
+                        margin-right: 24px;
+                    }
+                    &_div {
+                        height: 55px;
+                        display: flex;
+                        text-align: start;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        &_span_up {
+                            font-size: 18px;
+                            line-height: 24.1px;
+                        }
+                        &_span_bottom {
+                            font-size: 15px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
