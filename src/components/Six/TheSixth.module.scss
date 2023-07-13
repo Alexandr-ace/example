@@ -26,28 +26,44 @@
                 justify-content: center;
             }
         }
-        &_names {
-            margin-top: 58px;
+        &_imgx {
+            margin-top: 92px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            &_img {
+                margin-right: 22px;
+            }
+        }
+        .unexpected {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+        }
+        &_names {
+            margin-top: 58px;
             width: 576px;
             height: 360px;
             background-color: white;
             color: black;
-
+            border-radius: 20px 20px 0 20px;
             .avatar {
                 width: 576px;
                 height: 360px;
                 margin-left: 40px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
                 &_img {
+                    margin-top: 40px;
                 }
                 &_stext {
+                    margin-top: 28px;
+                    font-size: 24px;
+                    line-height: 28.9px;
                 }
                 &_mtext {
+                    margin-top: 15px;
+                    width: 476px;
                 }
                 &_div {
                     margin-top: 27px;

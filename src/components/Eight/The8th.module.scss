@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    height: 982px;
+    .center {
+        display: flex;
+        width: 1280px;
+        margin: 0 auto;
+        color: black;
+        flex-direction: column;
+        &_img {
+            display: flex;
+            justify-content: center;
+        }
+        &_text1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 23px;
+            font-size: 48px;
+            line-height: 52.8px;
+        }
+        &_text2 {
+            display: flex;
+            justify-content: center;
+            font-size: 48px;
+            line-height: 52.8px;
+        }
+        &_row {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &_avatar {
+                &_textm {
+                    font-size: 24px;
+                    line-height: 29.8px;
+                    margin-top: 32px;
+                }
+                &_texts {
+                    font-size: 18px;
+                    line-height: 27.9px;
+                    margin-top: 6px;
+                }
+            }
+        }
+        &_imgs {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            &_inside {
+                width: 188px;
+                height: 34px;
+                border-bottom: 2px solid #dad9fa;
+            }
+        }
+    }
+}
