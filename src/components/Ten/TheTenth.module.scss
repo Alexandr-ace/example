@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    height: 400px;
+    .center {
+        display: flex;
+        width: 1280px;
+        margin: 0 auto;
+        color: black;
+        flex-direction: row;
+        &_all {
+            color: white;
+            height: 400px;
+            width: 640px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url("../../snippet/image/image49.png");
+            &_work {
+                font-size: 24px;
+                line-height: 29.8px;
+            }
+            &_favor {
+                font-size: 14px;
+                line-height: 27.9px;
+                margin-top: 19px;
+            }
+            &_img {
+                margin-top: 44.16px;
+            }
+        }
+        &_alls {
+            background-image: url("") !important;
+            background-color: #4543e8;
+        }
+    }
+}
