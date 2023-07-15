@@ -2,6 +2,9 @@
     padding-top: 180px;
     height: 2950px;
     display: flex;
+    @media (max-width: 1150px) {
+        height: auto;
+    }
     .center {
         display: flex;
         width: 1280px;
@@ -51,6 +54,13 @@
                     line-height: 27.9px;
                     width: 500px;
                 }
+            }
+            @media (max-width: 1150px) {
+                text-align: center;
+                flex-direction: column;
+                justify-content: center;
+                width: auto;
+                display: flex;
             }
         }
         &_3 {
