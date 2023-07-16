@@ -2,19 +2,31 @@
     display: flex;
     height: 731px;
     background-color: #010032;
+    @media (max-width: 1150px) {
+        height: auto;
+    }
     .center {
         display: flex;
         width: 1280px;
         margin: 0 auto;
         color: white;
         flex-direction: column;
+        @media (max-width: 1150px) {
+            width: auto;
+        }
         &_img {
             margin-top: 94px;
+            @media (max-width: 1150px) {
+                display: none;
+            }
         }
         &_text {
             margin-top: 24px;
             font-size: 44px;
             line-height: 66px;
+            @media (max-width: 1150px) {
+                display: none;
+            }
         }
         &_info {
             border-bottom: 1px solid #34335b;
@@ -23,6 +35,17 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            @media (max-width: 1150px) {
+                width: auto;
+                text-align: center;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: auto;
+                margin-top: 50px;
+                border-bottom: 0px;
+            }
             &_1 {
                 div {
                     width: 190px;
@@ -38,8 +61,14 @@
                 &_text {
                     margin-bottom: 15px;
                 }
+                @media (max-width: 1150px) {
+                    display: none;
+                }
             }
             &_3 {
+                @media (max-width: 1150px) {
+                    margin-top: 50px;
+                }
                 &_form {
                     margin-top: 16px;
                     input {
@@ -68,6 +97,15 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            @media (max-width: 1150px) {
+                width: auto;
+                text-align: center;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: auto;
+            }
             div {
                 font-size: 16px;
                 line-height: 24px;
@@ -76,6 +114,9 @@
                 display: flex;
                 width: 476px;
                 justify-content: space-between;
+                @media (max-width: 1150px) {
+                    margin-top: 50px;
+                }
             }
         }
     }

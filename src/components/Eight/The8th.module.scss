@@ -1,15 +1,24 @@
 .main {
     display: flex;
     height: 982px;
+    @media (max-width: 1150px) {
+        height: auto;
+    }
     .center {
         display: flex;
         width: 1280px;
         margin: 0 auto;
         color: black;
         flex-direction: column;
+        @media (max-width: 1150px) {
+            width: auto;
+        }
         &_img {
             display: flex;
             justify-content: center;
+            @media (max-width: 1150px) {
+                display: none;
+            }
         }
         &_text1 {
             display: flex;
@@ -29,6 +38,16 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            @media (max-width: 1150px) {
+                text-align: center;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                div {
+                    margin-bottom: 30px;
+                }
+            }
             &_avatar {
                 &_textm {
                     font-size: 24px;
@@ -50,6 +69,9 @@
                 width: 188px;
                 height: 34px;
                 border-bottom: 2px solid #dad9fa;
+            }
+            @media (max-width: 1150px) {
+                margin-top: 0;
             }
         }
     }

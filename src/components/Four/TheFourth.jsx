@@ -14,7 +14,7 @@ const TheFourth = () => {
     <div className={styles.main}>
       <div className={styles.center}>
         <div className={styles.center_1}>
-          <img src={logo13} alt="" />
+          <img className={styles.center_1_img} src={logo13} alt="" />
           <div className={styles.center_1_text}>
             Bringing stellar results for every client.
           </div>
